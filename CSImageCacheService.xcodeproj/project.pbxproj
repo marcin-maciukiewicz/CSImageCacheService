@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		32FCD4B411848BC300CD4CA2 /* Disk Image */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 32FCD4BA11848BC500CD4CA2 /* Build configuration list for PBXAggregateTarget "Disk Image" */;
+			buildPhases = (
+				32FCD4B311848BC300CD4CA2 /* Build disk image */,
+			);
+			dependencies = (
+				32FCD4BC11848BD000CD4CA2 /* PBXTargetDependency */,
+			);
+			name = "Disk Image";
+			productName = "Disk Image";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		32FCD48111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */; };
+		32FCD48211848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */; };
+		32FCD48511848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */; };
+		32FCD48611848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */; };
+		32FCD48711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */; };
+		32FCD48811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */; };
+		32FCD48911848ACA00CD4CA2 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */; };
+		32FCD48A11848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */; };
+		32FCD48B11848ACA00CD4CA2 /* CSImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */; };
+		32FCD48C11848ACA00CD4CA2 /* CSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */; };
+		32FCD48D11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */; };
+		32FCD48E11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */; };
+		32FCD48F11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */; };
+		32FCD49011848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */; };
+		32FCD49111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */; };
+		32FCD49411848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */; };
+		32FCD49511848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */; };
+		32FCD49611848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */; };
+		32FCD49711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */; };
+		32FCD49811848ACA00CD4CA2 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */; };
+		32FCD49911848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */; };
+		32FCD49A11848ACA00CD4CA2 /* CSImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */; };
+		32FCD49B11848ACA00CD4CA2 /* CSImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */; };
+		32FCD49C11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */; };
+		32FCD49D11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */; };
+		32FCD49E11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */; };
+		32FCD49F11848ADB00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD4A311848ADB00CD4CA2 /* CSImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD4A411848ADB00CD4CA2 /* CSImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD4A511848ADB00CD4CA2 /* CSImageCacheFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD74C1184900600CD4CA2 /* CSImageCacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */; };
+		32FCD74D1184900600CD4CA2 /* CSImageCacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */; };
+		32FCD74E118490A700CD4CA2 /* CSBundleImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD74F118490A700CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCD750118490C100CD4CA2 /* CSImageCacheService.h in Headers */ = {isa = PBXBuildFile; fileRef = 32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FCD46E11848A8B00CD4CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FCD46111848A6900CD4CA2;
+			remoteInfo = "CSImageCacheService-iPhone";
+		};
+		32FCD47011848A8B00CD4CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FCD46811848A7500CD4CA2;
+			remoteInfo = "CSImageCacheService-iPhoneSimulator";
+		};
+		32FCD4BB11848BD000CD4CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = CSImageCacheService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = ../../Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* CSImageCacheService_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheService_Prefix.pch; sourceTree = "<group>"; };
+		32FCD46211848A6900CD4CA2 /* libCSImageCacheService-iPhone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCSImageCacheService-iPhone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FCD46911848A7500CD4CA2 /* libCSImageCacheService-iPhoneSimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCSImageCacheService-iPhoneSimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAbstractImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAbstractImageCacheDomain.m; sourceTree = "<group>"; };
+		32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSBundleImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSBundleImageCacheDomain.m; sourceTree = "<group>"; };
+		32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSGeneralImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSGeneralImageCacheDomain.m; sourceTree = "<group>"; };
+		32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjectSingleton.h; sourceTree = "<group>"; };
+		32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCache.h; sourceTree = "<group>"; };
+		32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSImageCache.m; sourceTree = "<group>"; };
+		32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheDomain.h; sourceTree = "<group>"; };
+		32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheFactory.h; sourceTree = "<group>"; };
+		32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSImageCacheFactory.m; sourceTree = "<group>"; };
+		32FCD5A011848D0400CD4CA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSImageCacheService.h; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* CSImageCacheService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CSImageCacheService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FCD46011848A6900CD4CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCD46711848A7500CD4CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* CSImageCacheService.framework */,
+				32FCD46211848A6900CD4CA2 /* libCSImageCacheService-iPhone.a */,
+				32FCD46911848A7500CD4CA2 /* libCSImageCacheService-iPhoneSimulator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* CSImageCacheService */ = {
+			isa = PBXGroup;
+			children = (
+				327114011198B39A0010BAAD /* External */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = CSImageCacheService;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32FCD47211848AC900CD4CA2 /* CSAbstractImageCacheDomain.h */,
+				32FCD47311848AC900CD4CA2 /* CSAbstractImageCacheDomain.m */,
+				32FCD47611848ACA00CD4CA2 /* CSBundleImageCacheDomain.h */,
+				32FCD47711848ACA00CD4CA2 /* CSBundleImageCacheDomain.m */,
+				32FCD47811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h */,
+				32FCD47911848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m */,
+				32FCD47C11848ACA00CD4CA2 /* CSImageCache.h */,
+				32FCD47D11848ACA00CD4CA2 /* CSImageCache.m */,
+				32FCD47E11848ACA00CD4CA2 /* CSImageCacheDomain.h */,
+				32FCD47F11848ACA00CD4CA2 /* CSImageCacheFactory.h */,
+				32FCD48011848ACA00CD4CA2 /* CSImageCacheFactory.m */,
+				32FCD74B1184900600CD4CA2 /* CSImageCacheService.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+				32FCD5A011848D0400CD4CA2 /* UIKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		327114011198B39A0010BAAD /* External */ = {
+			isa = PBXGroup;
+			children = (
+				32FCD47A11848ACA00CD4CA2 /* GTMDefines.h */,
+				32FCD47B11848ACA00CD4CA2 /* GTMObjectSingleton.h */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* CSImageCacheService_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32FCD45E11848A6900CD4CA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCD48111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */,
+				32FCD48511848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */,
+				32FCD48711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */,
+				32FCD48911848ACA00CD4CA2 /* GTMDefines.h in Headers */,
+				32FCD48A11848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */,
+				32FCD48B11848ACA00CD4CA2 /* CSImageCache.h in Headers */,
+				32FCD48D11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */,
+				32FCD48E11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */,
+				32FCD74C1184900600CD4CA2 /* CSImageCacheService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCD46511848A7500CD4CA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCD49011848ACA00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */,
+				32FCD49411848ACA00CD4CA2 /* CSBundleImageCacheDomain.h in Headers */,
+				32FCD49611848ACA00CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */,
+				32FCD49811848ACA00CD4CA2 /* GTMDefines.h in Headers */,
+				32FCD49911848ACA00CD4CA2 /* GTMObjectSingleton.h in Headers */,
+				32FCD49A11848ACA00CD4CA2 /* CSImageCache.h in Headers */,
+				32FCD49C11848ACA00CD4CA2 /* CSImageCacheDomain.h in Headers */,
+				32FCD49D11848ACA00CD4CA2 /* CSImageCacheFactory.h in Headers */,
+				32FCD74D1184900600CD4CA2 /* CSImageCacheService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCD750118490C100CD4CA2 /* CSImageCacheService.h in Headers */,
+				32FCD74E118490A700CD4CA2 /* CSBundleImageCacheDomain.h in Headers */,
+				32FCD74F118490A700CD4CA2 /* CSGeneralImageCacheDomain.h in Headers */,
+				32FCD49F11848ADB00CD4CA2 /* CSAbstractImageCacheDomain.h in Headers */,
+				32FCD4A311848ADB00CD4CA2 /* CSImageCache.h in Headers */,
+				32FCD4A411848ADB00CD4CA2 /* CSImageCacheDomain.h in Headers */,
+				32FCD4A511848ADB00CD4CA2 /* CSImageCacheFactory.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32FCD46111848A6900CD4CA2 /* CSImageCacheService-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FCD46C11848A7900CD4CA2 /* Build configuration list for PBXNativeTarget "CSImageCacheService-iPhone" */;
+			buildPhases = (
+				32FCD45E11848A6900CD4CA2 /* Headers */,
+				32FCD45F11848A6900CD4CA2 /* Sources */,
+				32FCD46011848A6900CD4CA2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSImageCacheService-iPhone";
+			productName = "CSImageCacheService-iPhone";
+			productReference = 32FCD46211848A6900CD4CA2 /* libCSImageCacheService-iPhone.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32FCD46811848A7500CD4CA2 /* CSImageCacheService-iPhoneSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FCD46D11848A7900CD4CA2 /* Build configuration list for PBXNativeTarget "CSImageCacheService-iPhoneSimulator" */;
+			buildPhases = (
+				32FCD46511848A7500CD4CA2 /* Headers */,
+				32FCD46611848A7500CD4CA2 /* Sources */,
+				32FCD46711848A7500CD4CA2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CSImageCacheService-iPhoneSimulator";
+			productName = "CSImageCacheService-iPhoneSimulator";
+			productReference = 32FCD46911848A7500CD4CA2 /* libCSImageCacheService-iPhoneSimulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8DC2EF4F0486A6940098B216 /* CSImageCacheService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CSImageCacheService" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+				32FCD4B011848B9500CD4CA2 /* Build lipo binary */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FCD46F11848A8B00CD4CA2 /* PBXTargetDependency */,
+				32FCD47111848A8B00CD4CA2 /* PBXTargetDependency */,
+			);
+			name = CSImageCacheService;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = CSImageCacheService;
+			productReference = 8DC2EF5B0486A6940098B216 /* CSImageCacheService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CSImageCacheService" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 0867D691FE84028FC02AAC07 /* CSImageCacheService */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FCD4B411848BC300CD4CA2 /* Disk Image */,
+				8DC2EF4F0486A6940098B216 /* CSImageCacheService */,
+				32FCD46111848A6900CD4CA2 /* CSImageCacheService-iPhone */,
+				32FCD46811848A7500CD4CA2 /* CSImageCacheService-iPhoneSimulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32FCD4B011848B9500CD4CA2 /* Build lipo binary */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build lipo binary";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FRAMEWORK=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\nlipo \\\n\t\"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PRODUCT_NAME}-iPhone.a\" \\\n\t\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PRODUCT_NAME}-iPhoneSimulator.a\" \\\n\t-create -output \"${FRAMEWORK}/Versions/Current/${PRODUCT_NAME}\"\n\ncd \"${FRAMEWORK}\" && ln -sf \"Versions/Current/${PRODUCT_NAME}\" ./";
+		};
+		32FCD4B311848BC300CD4CA2 /* Build disk image */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build disk image";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Destination root for the framework\nDESTROOT=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}-${CURRENT_PROJECT_VERSION}\"\nmkdir -p \"${DESTROOT}\"\n\n# \nIPHONE_DEST=\"${DESTROOT}/iPhone Framework\"\nDOC_DEST=\"${DESTROOT}/Documentation\"\n\n# Populate the framework folder\nmkdir -p \"${IPHONE_DEST}\"\ntar -C \"${BUILT_PRODUCTS_DIR}\" -cf - \"${PRODUCT_NAME}.framework\" | tar -C \"${IPHONE_DEST}\" -xf -\n\n# Build documentation (or not)\nBUILD_DOCUMENTATION=\"no\"\nif [ -x `which doxygen` -a \"${BUILD_DOCUMENTATION}\" = \"yes\" ]; then\n    pushd \"${SRCROOT}\" >/dev/null\n    doxygen\n    if [ $? != 0 ]; then\n        echo \"ERROR: Documentation generation failed\" >/dev/stderr\n        exit 1\n    fi\n    popd >/dev/null\n\n    rm -rf \"${DOC_DEST}\"\n    mv Documentation \"${DOC_DEST}\"\nelse\n    echo \"WARNING: Doxygen not available, skipping documentation generation\" >/dev/stderr\nfi\n\n# Create the framework disk image\nrm -f \"${DESTROOT}.dmg\"\nhdiutil create -srcfolder \"${DESTROOT}\" \"${DESTROOT}.dmg\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FCD45F11848A6900CD4CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCD48211848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */,
+				32FCD48611848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */,
+				32FCD48811848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */,
+				32FCD48C11848ACA00CD4CA2 /* CSImageCache.m in Sources */,
+				32FCD48F11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FCD46611848A7500CD4CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FCD49111848ACA00CD4CA2 /* CSAbstractImageCacheDomain.m in Sources */,
+				32FCD49511848ACA00CD4CA2 /* CSBundleImageCacheDomain.m in Sources */,
+				32FCD49711848ACA00CD4CA2 /* CSGeneralImageCacheDomain.m in Sources */,
+				32FCD49B11848ACA00CD4CA2 /* CSImageCache.m in Sources */,
+				32FCD49E11848ACA00CD4CA2 /* CSImageCacheFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FCD46F11848A8B00CD4CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FCD46111848A6900CD4CA2 /* CSImageCacheService-iPhone */;
+			targetProxy = 32FCD46E11848A8B00CD4CA2 /* PBXContainerItemProxy */;
+		};
+		32FCD47111848A8B00CD4CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FCD46811848A7500CD4CA2 /* CSImageCacheService-iPhoneSimulator */;
+			targetProxy = 32FCD47011848A8B00CD4CA2 /* PBXContainerItemProxy */;
+		};
+		32FCD4BC11848BD000CD4CA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* CSImageCacheService */;
+			targetProxy = 32FCD4BB11848BD000CD4CA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/../../Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = 1.0.0;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = CSImageCacheService;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/../../Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+				);
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = CSImageCacheService;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		32FCD46311848A6900CD4CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/../../Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = CSImageCacheService_Prefix.pch;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "CSImageCacheService-iPhone";
+				SDKROOT = iphoneos3.0;
+				VALID_ARCHS = "x86_64 armv6 armv7";
+			};
+			name = Debug;
+		};
+		32FCD46411848A6900CD4CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/../../Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREFIX_HEADER = CSImageCacheService_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = "CSImageCacheService-iPhone";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		32FCD46A11848A7500CD4CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/../../Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = CSImageCacheService_Prefix.pch;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "CSImageCacheService-iPhoneSimulator";
+				SDKROOT = iphonesimulator3.0;
+				VALID_ARCHS = "x86_64 i386";
+			};
+			name = Debug;
+		};
+		32FCD46B11848A7500CD4CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SDKROOT)/../../Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+					"\"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/System/Library/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PREFIX_HEADER = CSImageCacheService_Prefix.pch;
+				PREBINDING = NO;
+				PRODUCT_NAME = "CSImageCacheService-iPhoneSimulator";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		32FCD4B511848BC300CD4CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = CSImageCacheService;
+			};
+			name = Debug;
+		};
+		32FCD4B611848BC300CD4CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Disk Image";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "CSImageCacheService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "CSImageCacheService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FCD46C11848A7900CD4CA2 /* Build configuration list for PBXNativeTarget "CSImageCacheService-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCD46311848A6900CD4CA2 /* Debug */,
+				32FCD46411848A6900CD4CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FCD46D11848A7900CD4CA2 /* Build configuration list for PBXNativeTarget "CSImageCacheService-iPhoneSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCD46A11848A7500CD4CA2 /* Debug */,
+				32FCD46B11848A7500CD4CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FCD4BA11848BC500CD4CA2 /* Build configuration list for PBXAggregateTarget "Disk Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FCD4B511848BC300CD4CA2 /* Debug */,
+				32FCD4B611848BC300CD4CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
